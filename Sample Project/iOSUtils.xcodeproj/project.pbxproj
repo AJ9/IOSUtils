@@ -14,8 +14,8 @@
 		59AEB2C51AB076AC00CA2E49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59AEB2C41AB076AC00CA2E49 /* Images.xcassets */; };
 		59AEB2C81AB076AC00CA2E49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59AEB2C61AB076AC00CA2E49 /* LaunchScreen.xib */; };
 		59AEB2D41AB076AC00CA2E49 /* iOSUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AEB2D31AB076AC00CA2E49 /* iOSUtilsTests.m */; };
-		59AEB2E01AB076F400CA2E49 /* iOSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AEB2DF1AB076F400CA2E49 /* iOSUtils.m */; };
 		59AEB2E31AB0770600CA2E49 /* YourObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AEB2E21AB0770600CA2E49 /* YourObject.m */; };
+		59AEB2E91AB0787800CA2E49 /* iOSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AEB2E81AB0787800CA2E49 /* iOSUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +42,10 @@
 		59AEB2CD1AB076AC00CA2E49 /* iOSUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AEB2D21AB076AC00CA2E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59AEB2D31AB076AC00CA2E49 /* iOSUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSUtilsTests.m; sourceTree = "<group>"; };
-		59AEB2DE1AB076F400CA2E49 /* iOSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSUtils.h; sourceTree = "<group>"; };
-		59AEB2DF1AB076F400CA2E49 /* iOSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSUtils.m; sourceTree = "<group>"; };
 		59AEB2E11AB0770600CA2E49 /* YourObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YourObject.h; sourceTree = "<group>"; };
 		59AEB2E21AB0770600CA2E49 /* YourObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YourObject.m; sourceTree = "<group>"; };
+		59AEB2E71AB0787800CA2E49 /* iOSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSUtils.h; path = ../../iOSUtils.h; sourceTree = "<group>"; };
+		59AEB2E81AB0787800CA2E49 /* iOSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSUtils.m; path = ../../iOSUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,8 +129,8 @@
 		59AEB2DD1AB076E500CA2E49 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				59AEB2DE1AB076F400CA2E49 /* iOSUtils.h */,
-				59AEB2DF1AB076F400CA2E49 /* iOSUtils.m */,
+				59AEB2E71AB0787800CA2E49 /* iOSUtils.h */,
+				59AEB2E81AB0787800CA2E49 /* iOSUtils.m */,
 				59AEB2E11AB0770600CA2E49 /* YourObject.h */,
 				59AEB2E21AB0770600CA2E49 /* YourObject.m */,
 			);
@@ -239,8 +239,8 @@
 			files = (
 				59AEB2E31AB0770600CA2E49 /* YourObject.m in Sources */,
 				59AEB2C01AB076AC00CA2E49 /* ViewController.m in Sources */,
-				59AEB2E01AB076F400CA2E49 /* iOSUtils.m in Sources */,
 				59AEB2BD1AB076AC00CA2E49 /* AppDelegate.m in Sources */,
+				59AEB2E91AB0787800CA2E49 /* iOSUtils.m in Sources */,
 				59AEB2BA1AB076AC00CA2E49 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +434,7 @@
 				59AEB2D91AB076AC00CA2E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59AEB2DA1AB076AC00CA2E49 /* Build configuration list for PBXNativeTarget "iOSUtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +443,7 @@
 				59AEB2DC1AB076AC00CA2E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

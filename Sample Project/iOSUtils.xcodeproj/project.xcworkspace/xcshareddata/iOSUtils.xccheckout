@@ -14,11 +14,11 @@
 		<string>https://github.com/AJ9/IOSUtils.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOSUtils.xcodeproj</string>
+	<string>Sample Project/iOSUtils.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>61A4C6202A3DE4F1CF8A7874AED245555EC44F6B</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/AJ9/IOSUtils.git</string>

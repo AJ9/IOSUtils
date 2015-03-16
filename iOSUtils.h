@@ -33,6 +33,6 @@
 +(BOOL) deleteAllFilesInDirectory:(NSString*) directory withDebugOutput:(BOOL) showDebugStatements;
 +(BOOL) deleteAllFilesInDocumentsDirectory:(BOOL) showDebugStatements;
 +(NSString*) getDocumentsDirectory;
-
++(NSString*) getFileExtention:(NSString*)filename;
 
 @end

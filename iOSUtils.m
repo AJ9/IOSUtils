@@ -92,5 +92,9 @@
     return documentsDirectory;
 }
 
++(NSString*) getFileExtention:(NSString*)filename{
+    return [filename pathExtension];
+}
+
 
 @end

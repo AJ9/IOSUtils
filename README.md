@@ -12,3 +12,9 @@ To associate a file type with an iOS application:
 
 ## MISC 
 Big thanks to [adam-p](https://github.com/adam-p) for this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) which was used when making this README.
+
+## License
+
+### Code
+
+MIT License: http://aj9.mit-license.org/ or see the [`LICENSE`](https://github.com/AJ9/IOSUtils/blob/master/LICENCE) file.

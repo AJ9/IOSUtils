@@ -56,7 +56,7 @@
 }
 
 +(NSString*) getCurrentTimeStampString{
-    return [NSString stringWithFormat:@"%f",[self getCurrentTimeStamp]];
+    return [NSString stringWithFormat:@"%.f",[self getCurrentTimeStamp]];
 }
 
 

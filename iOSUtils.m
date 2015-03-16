@@ -49,6 +49,15 @@
     
 }
 
+#pragma Getting the Current UNIX Timestamp
+
++(NSTimeInterval) getCurrentTimeStamp {
+    return [[NSDate date] timeIntervalSince1970] * 1000;
+}
+
++(NSString*) getCurrentTimeStampString{
+    return [NSString stringWithFormat:@"%f",[self getCurrentTimeStamp]];
+}
 
 
 @end

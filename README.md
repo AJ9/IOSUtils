@@ -8,3 +8,7 @@ To associate a file type with an iOS application:
 * If so go to Targets -> Your Target -> Info -> Document Types
 * Enter "Types" as the value from the above link. For example `com.adobe.pdf`
 * Enter a "Name". For example `PDF`
+
+
+## MISC 
+Big thanks to [adam-p](https://github.com/adam-p) for this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) which was used when making this README.

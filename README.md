@@ -9,6 +9,15 @@ To associate a file type with an iOS application:
 * Enter "Types" as the value from the above link. For example `com.adobe.pdf`
 * Enter a "Name". For example `PDF`
 
+## Debugging
+
+To add useful comments to your code: 
+
+* To do: `//TODO: To do something`
+* Fix me: `// FIXME: Fix me`
+* Unknown: `// ???: Unkown`
+* Urgent: `// !!!: Urgent`
+* Mark: `// MARK: Mark`
 
 ## MISC 
 Big thanks to [adam-p](https://github.com/adam-p) for this [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) which was used when making this README.

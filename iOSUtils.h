@@ -49,4 +49,8 @@
 +(NSString*) getDocumentsDirectory;
 +(NSString*) getFileExtention:(NSString*)filename;
 
+#pragma mark Working with networks
+
++(NSString*) formatJSONPretty:(id) JSONObj;
+
 @end

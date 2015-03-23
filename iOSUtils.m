@@ -96,5 +96,19 @@
     return [filename pathExtension];
 }
 
+#pragma mark Working with networks
+
++(NSString*) formatJSONPretty:(id)JSONObj{
+    NSError * err;
+    NSData * jsonData = [NSJSONSerialization dataWithJSONObject:JSONObj options:NSJSONWritingPrettyPrinted error:&err];
+    if(err != nil){
+        NSString * prettyJSON = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        return prettyJSON;
+    }
+    else {
+        return nil;
+    }
+   
+}
 
 @end

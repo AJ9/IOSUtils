@@ -96,7 +96,7 @@
     return [filename pathExtension];
 }
 
-#pragma mark Working with networks
+#pragma mark Working with Networks
 
 +(NSString*) formatJSONPretty:(id)JSONObj{
     NSError * err;
@@ -110,5 +110,22 @@
     }
    
 }
+
+#pragma mark Working with Images
+
++(double) convertDegreesToRadians:(double) degrees{
+    return degrees * M_PI/180;
+}
+
++(UIImage*) rotateImage:(UIImage *)image by:(float)degrees{
+    UIGraphicsBeginImageContext(image.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextRotateCTM (context, radians(degrees));
+    [image drawAtPoint:CGPointMake(0, 0)];
+    UIImage *rotatedImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return rotatedImage;
+}
+
 
 @end

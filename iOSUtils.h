@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 #define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
@@ -21,6 +22,7 @@
 #define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
 #define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
 #define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
+
 
 @interface iOSUtils : NSObject
 
@@ -49,8 +51,23 @@
 +(NSString*) getDocumentsDirectory;
 +(NSString*) getFileExtention:(NSString*)filename;
 
-#pragma mark Working with networks
+#pragma mark Working with Networks
 
 +(NSString*) formatJSONPretty:(id) JSONObj;
+
+#pragma mark Working with Images
+
+
+/**
+ *  Inline method to convert degrees to radians.
+ *
+ *  @param degrees - the value of the angle in degrees.
+ *
+ *  @return radian angle value.
+ */
+static inline double radians (double degrees) {return degrees * M_PI/180;}
+
++(double) convertDegreesToRadians:(double) degrees;
++(UIImage*) rotateImage:(UIImage*) image by:(float) degrees;
 
 @end
